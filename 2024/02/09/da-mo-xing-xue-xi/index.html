@@ -491,7 +491,8 @@
 <li><strong>参数化知识（Parametric knowledge）：</strong> 模型在训练过程中学习得到的，隐式地储存在神经网络的权重中。</li>
 <li><strong>非参数化知识（Non-parametric knowledge）：</strong> 存储在外部知识源，例如向量数据库中。</li>
 </ul>
-<p><img src="https://cdn.jsdelivr.net/gh/githublyp0606/blogImages/imgs/202402132136771.png" alt="image-20240213213624101"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/githublyp0606/blogImages/imgs/202402132136771.png" alt="RAG流程图"></p>
+<p>​    RAG 会接受输入并检索出一组相关/支撑的文档，并给出文档的来源（例如维基百科）。这些文档作为上下文和输入的原始提示词组合，送给文本生成器得到最终的输出。这样 RAG 更加适应事实会随时间变化的情况。这非常有用，因为 LLM 的参数化知识是静态的。RAG 让语言模型不用重新训练就能够获取最新的信息，基于检索生成产生可靠的输出。</p>
 
                 
             </div>

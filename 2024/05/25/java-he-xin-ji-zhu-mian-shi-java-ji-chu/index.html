@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="大模型学习, Ivan Blog">
+    <meta name="keywords" content="【java】核心技术面试-java基础, Ivan Blog">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>大模型学习 | Ivan Blog</title>
+    <title>【java】核心技术面试-java基础 | Ivan Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -312,12 +312,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">大模型学习</h1>
+                    <h1 class="description center-align post-title">【java】核心技术面试-java基础</h1>
                 </div>
             </div>
         </div>
@@ -437,12 +437,8 @@
                                 <span class="chip bg-color">计算机</span>
                             </a>
                         
-                            <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/">
-                                <span class="chip bg-color">人工智能</span>
-                            </a>
-                        
-                            <a href="/tags/ai/">
-                                <span class="chip bg-color">ai</span>
+                            <a href="/tags/java/">
+                                <span class="chip bg-color">java</span>
                             </a>
                         
                     </div>
@@ -457,12 +453,8 @@
                                 学习
                             </a>
                         
-                            <a href="/categories/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/" class="post-category">
-                                计算机
-                            </a>
-                        
-                            <a href="/categories/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" class="post-category">
-                                人工智能
+                            <a href="/categories/%E5%AD%A6%E4%B9%A0/java/" class="post-category">
+                                java
                             </a>
                         
                     </div>
@@ -474,7 +466,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2024-02-09
+                    2024-05-25
                 </div>
                 
 
@@ -498,30 +490,55 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="大模型学习"><a href="#大模型学习" class="headerlink" title="大模型学习"></a>大模型学习</h1><h2 id="【硅谷101-138期】"><a href="#【硅谷101-138期】" class="headerlink" title="【硅谷101 138期】"></a>【硅谷101 138期】</h2><h3 id="五步"><a href="#五步" class="headerlink" title="五步"></a>五步</h3><ul>
-<li>ChatGPT总结，全局理解，记录在spreadsheet</li>
-<li>Audible/speechify听</li>
-<li>spreadsheet复习，费曼法自问</li>
-<li>chatgpt提问，作比较、扩展延申到相关的问题和领域</li>
-<li>用RAG+GPT API做research</li>
-</ul>
-<h3 id="优化后步骤"><a href="#优化后步骤" class="headerlink" title="优化后步骤"></a>优化后步骤</h3><ul>
-<li>chatGPT总结，以markdown记录在自己的博客</li>
-<li>使用手机自带，辅助朗读功能听</li>
-<li>使用脑图记录知识点脉络。费曼法自问</li>
-<li>chatgpt提问，作比较、扩展延申到相关的问题和领域</li>
-<li>用RAG+GPT API做research（带调研步骤）</li>
-</ul>
-<h2 id="检索增强生成（RAG，Retrieval-Augmented-Generation）"><a href="#检索增强生成（RAG，Retrieval-Augmented-Generation）" class="headerlink" title="检索增强生成（RAG，Retrieval Augmented Generation）"></a>检索增强生成（<strong>RAG，Retrieval Augmented Generation</strong>）</h2><blockquote>
-<p>RAG 对大语言模型（Large Language Model，LLM）的作用，就像开卷考试对学生一样。在开卷考试中，学生可以带着参考资料进场，比如教科书或笔记，用来查找解答问题所需的相关信息。开卷考试的核心在于考察学生的推理能力，而非对具体信息的记忆能力。</p>
+                <blockquote>
+<p>极客时间课程《JAVA核心技术面试精讲》</p>
 </blockquote>
-<p>在 RAG 中，事实性知识与 LLM 的推理能力相分离，被存储在容易访问和及时更新的外部知识源中，具体分为两种：</p>
+<h1 id="Exception和Error区别"><a href="#Exception和Error区别" class="headerlink" title="Exception和Error区别"></a>Exception和Error区别</h1><h2 id="典型回达"><a href="#典型回达" class="headerlink" title="典型回达"></a>典型回达</h2><p>Exception 和 Error 都是继承了 Throwable 类，只有 Throwable 类型的实例才可以被抛出（throw）或者捕获（catch）。</p>
 <ul>
-<li><strong>参数化知识（Parametric knowledge）：</strong> 模型在训练过程中学习得到的，隐式地储存在神经网络的权重中。</li>
-<li><strong>非参数化知识（Non-parametric knowledge）：</strong> 存储在外部知识源，例如向量数据库中。</li>
+<li>Exception是正常运行中，可预料的意外情况，应该被捕获并处理。</li>
+<li>Error是正常情况下，不大可能出现的情况，绝大部分的 Error 都会导致程序（比如 JVM 自身）处于非正常的、不可恢复状态。比如 OutOfMemoryError 之类，都是 Error 的子类。</li>
+<li>Exception包含：可检查异常和不检查异常，可检查异常必须在源码里显示的捕获处理，编译期会检查。不检查异常指运行时异常，比如NullPointerException、ArrayIndexOutOfBoundsException</li>
 </ul>
-<p><img src="https://cdn.jsdelivr.net/gh/githublyp0606/blogImages/imgs/202402132136771.png" alt="RAG流程图"></p>
-<p>​    RAG 会接受输入并检索出一组相关/支撑的文档，并给出文档的来源（例如维基百科）。这些文档作为上下文和输入的原始提示词组合，送给文本生成器得到最终的输出。这样 RAG 更加适应事实会随时间变化的情况。这非常有用，因为 LLM 的参数化知识是静态的。RAG 让语言模型不用重新训练就能够获取最新的信息，基于检索生成产生可靠的输出。</p>
+<h2 id="考点分析"><a href="#考点分析" class="headerlink" title="考点分析"></a>考点分析</h2><p><img src="/image.png" alt="Alt text"></p>
+<h3 id="1-NoClassDefFoundError-和-ClassNotFoundException-区别"><a href="#1-NoClassDefFoundError-和-ClassNotFoundException-区别" class="headerlink" title="1 NoClassDefFoundError 和 ClassNotFoundException 区别"></a>1 NoClassDefFoundError 和 ClassNotFoundException 区别</h3><ul>
+<li><p><code>ClassNotFoundException</code>: 是一个检查时异常（checked exception），它在应用程序试图通过字符串名称动态加载类并且找不到相应的类时抛出。这种情况通常发生在使用<code>Class.forName()</code>, <code>ClassLoader.loadClass()</code>或者<code>java.net.URLClassLoader.findSystemClass()</code>等方法时。</p>
+<ul>
+<li><pre><code class="java">try {
+    Class&lt;?&gt; cls = Class.forName("com.example.NonExistingClass");
+} catch (ClassNotFoundException e) {
+    e.printStackTrace();
+}
+<pre class="line-numbers language-none"><code class="language-none">
+  - 典型的情况是，类路径上确实没有这个类，或者在运行时动态加载类时提供了错误的类名
+
+- `NoClassDefFoundError`是一个错误（Error），它表示JVM在之前已经加载过类的定义，但现在在运行时找不到类的定义了。这通常是因为在编译时类是可用的，但在运行时因为某些原因类路径改变了或者相应的类文件被移动、删除或损坏，导致JVM无法找到类的定义。
+
+  - 这个错误也可能发生在类初始化失败之后的第二次尝试加载这个类时，因为Java虚拟机规范允许类初始化失败后进行后续尝试。
+
+  - ```java
+    public class MyClass {
+        static {
+            int[] counts = new int[-1]; // 引发异常的静态初始化器
+        }
+    }
+    
+    public class Test {
+        public static void main(String[] args) {
+            try {
+                MyClass myObj = new MyClass();
+            } catch (Throwable e) {
+                e.printStackTrace();
+            }
+            MyClass myObj2 = new MyClass(); // 这里会抛出NoClassDefFoundError
+        }
+    }<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</code></pre>
+</li>
+<li><p>在第一次尝试创建<code>MyClass</code>的实例时，由于静态初始化器中有错误，会抛出一个<code>ExceptionInInitializerError</code>。如果后面再次尝试创建<code>MyClass</code>的实例，由于类初始化已经失败，JVM不会再次尝试初始化类，而是直接抛出<code>NoClassDefFoundError</code>。</p>
+</li>
+</ul>
+</li>
+</ul>
 
                 
             </div>
@@ -548,7 +565,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://githublyp0606.github.io/2024/02/09/da-mo-xing-xue-xi/">https://githublyp0606.github.io/2024/02/09/da-mo-xing-xue-xi/</a>
+                    <a href="https://githublyp0606.github.io/2024/05/25/java-he-xin-ji-zhu-mian-shi-java-ji-chu/">https://githublyp0606.github.io/2024/05/25/java-he-xin-ji-zhu-mian-shi-java-ji-chu/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -590,12 +607,8 @@
                                     <span class="chip bg-color">计算机</span>
                                 </a>
                             
-                                <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/">
-                                    <span class="chip bg-color">人工智能</span>
-                                </a>
-                            
-                                <a href="/tags/ai/">
-                                    <span class="chip bg-color">ai</span>
+                                <a href="/tags/java/">
+                                    <span class="chip bg-color">java</span>
                                 </a>
                             
                         </div>
@@ -769,13 +782,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2024/05/25/you-ji-zhu-hai-ao-men/">
+                <a href="/2024/09/17/you-ji-cheng-du-jiu-zhai-gou/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="【游记】珠海-澳门">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="【游记】成都-九寨沟">
                         
-                        <span class="card-title">【游记】珠海-澳门</span>
+                        <span class="card-title">【游记】成都-九寨沟</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -786,44 +799,8 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2024-05-25
+                            <i class="far fa-clock fa-fw icon-date"></i>2024-09-17
                         </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            Ivan
-                            
-                        </span>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2023/10/01/you-ji-liu-zhou/">
-                    <div class="card-image">
-                        
-                        <img src="https://fastly.jsdelivr.net/gh/githublyp0606/blogImages/imgs/202310110001789.jpg" class="responsive-img" alt="【游记】柳州&amp;惠州">
-                        
-                        <span class="card-title">【游记】柳州&amp;惠州</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-01
-                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -847,6 +824,43 @@
                         <span class="chip bg-color">旅游</span>
                     </a>
                     
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2024/05/25/you-ji-zhu-hai-ao-men/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="【游记】珠海-澳门">
+                        
+                        <span class="card-title">【游记】珠海-澳门</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-05-25
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Ivan
+                            
+                        </span>
+                    </div>
                 </div>
                 
             </div>
